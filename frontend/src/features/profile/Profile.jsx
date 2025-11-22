@@ -10,7 +10,7 @@ import {
   Home,
 } from "lucide-react";
 
-// fetched profile
+// fetch profile
 const Profile = () => {
   const navigate = useNavigate();
   const [profile, setProfile] = useState(null);
